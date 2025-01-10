@@ -3,10 +3,12 @@
 ### Build
 
 ```
+cd src
 mkdir build
 cd build
 cmake ..
 make
+./mysym-tool <input path> <output path>
 ```
 
 ### Пример запуска
